@@ -1,0 +1,16 @@
+bucket:
+  strip: 1
+
+packages:
+   - name: form
+     actions:
+      - name: insert
+        limits:
+          timeout: 60000
+        environment:
+          DB_Username: ${DB_Username}
+          DB_Password: ${DB_Password}
+          DB_ClusterUri: "${DB_ClusterUri}"
+          DB_Name: ${DB_Name}
+        
+        
