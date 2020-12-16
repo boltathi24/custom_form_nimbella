@@ -33,7 +33,7 @@ async function main(args) {
     // save model to database
     insertionResponse = await myForm.save();
     if (insertionResponse.name) {
-      response.body = { message: insertionResponse.name, success: true };
+      response.body = { message: 'Hi '+insertionResponse.name+'! Thanks for Submitting', success: true };
     } else {
       response.body = {
         message: "Error while inserting record",

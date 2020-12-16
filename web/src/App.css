@@ -1,0 +1,269 @@
+.App {
+  text-align: center;
+  background-color: black;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media screen and (min-width: 768px)
+{
+  .texts{
+    width: 90%;
+  height: 5%;
+  font-size: 20px;
+  }
+  .headerz{
+    font-size: 50px;
+  }
+
+.split
+{
+  width: 30%;
+  height: 100%;
+  
+}
+.contact{
+  font-size: 40px;
+}
+.about{
+  font-size:40px;
+}
+.split1
+{
+width: 70%;
+height: 100%;
+}
+.textresize{
+  font-size: 20px;
+  width:720px;
+  
+}
+}
+@media screen and (max-width: 640px)
+{
+  .texts{
+    width: 70%;
+  height: 5%;
+  font-size: 15px;
+  }
+  .headerz{
+    font-size: 15px;
+  }
+
+.textresize{
+  font-size: 15px;
+  width: 300px;
+  height: 300px;
+  
+}
+.contact{
+  font-size: 20px;
+}
+.about{
+  font-size:20px;
+}
+.split1{
+width: 100%;
+height: 50%;
+top:0;
+}
+.split{
+width: 100%;
+height: 50%;
+bottom: 0;
+}
+
+
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.split {
+  
+  
+  position: fixed;
+  z-index: 1;
+  top: 10;
+  overflow-x: hidden;
+  padding-top: 20px;
+  float: left;;
+}
+.split1 {
+  
+  
+  position: fixed;
+  z-index: 1;
+  top: 10;
+  overflow-x: hidden;
+  padding-top: 20px;
+  float: left;;
+}
+.full{
+  text-align:center ;
+}
+.left {
+  background-image: url("bc7.jpeg");
+  
+  
+  left: 0;
+  }
+.textresize{
+  background: transparent;
+  color: rgb(57, 235, 116);
+  outline: none;
+  border: none;
+  resize: none;
+  
+  font-family: 'Times New Roman', Times, serif;  
+  
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+.about{
+  background: transparent;
+  color: rgb(221, 221, 231);
+  outline: none;
+  border: none;
+  resize: none;
+  
+  font-family: 'Times New Roman', Times, serif;
+  left:  0px;
+  text-align: center;
+  
+}
+.contact{
+  background: transparent;
+  color: rgb(221, 221, 231);
+  outline: none;
+  border: none;
+  resize: none;
+  
+  font-family: 'Times New Roman', Times, serif;
+  right:   0px;
+  
+  
+  
+}
+.lb{
+  color: white;
+  font-size: 20px;
+}
+.texts{
+  background: transparent;
+  resize: none;
+  border: 0.1px solid rgb(57, 235, 116); 
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  
+  
+  overflow: hidden;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+  border-radius: 25px;
+  
+ 
+  color: #95a5a6;
+  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  -moz-transition: all 0.8s ease-in-out;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+  -webkit-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+  -moz-box-shadow: 0 0 5px rgba(81, 203, 238, 0);
+  border-color:rgb(57, 235, 116); /* new */
+}
+.lab{
+  color: white;
+}
+
+.laberror{
+  color: red;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparents;
+  color: white;
+  text-align: center;
+}
+.button
+{
+  border-radius: 5px;
+  border: 0;
+  width: 80px;
+  font-size: 12pt;
+  height:25px;
+  font-family: Tahoma;
+  background:rgb(57, 235, 116);
+  width: 120px;
+  height: 40px;
+  color: black;
+
+
+}
+
+
+.headerz{
+  background: transparent;
+  resize: none;
+  border:none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(228, 228, 245);
+  
+  overflow: hidden;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+ 
+  color: #95a5a6;
+}
+
+.right {
+  background-color:black;
+  right: 0;
+  
+  
+  
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
